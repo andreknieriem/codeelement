@@ -1,0 +1,14 @@
+{
+	"name": "ar_codeelement",
+	"type": "typo3-cms-extension",
+	"description": "Ar Siteext",
+	"homepage": "http://typo3.org",
+	"license": ["GPL-2.0+"],
+	"version": "1.0.0",
+	"require": {
+		"typo3/cms-core": ">=7.6,<10.0"
+	},
+	"replace": {
+		"ar_codeelement": "self.version"
+	}
+}

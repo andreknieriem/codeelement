@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-12-03T13:21:58Z" product-name="ar_codeelement">
+		<header/>
+		<body>
+			<trans-unit id="constants.loadprism">
+				<source>Include Prism.js Assets</source>
+			</trans-unit>
+			<trans-unit id="codelement.title">
+				<source>Code-Block</source>
+			</trans-unit>
+			<trans-unit id="codelement.description">
+				<source>A Code-Content-Element with Syntax-Highlighting</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

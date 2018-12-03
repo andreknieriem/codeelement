@@ -1,0 +1,42 @@
+#only include prismjs if wanted
+[globalVar = LIT:1 = {$plugin.tx_arcodelement.includePrism}]
+page.includeJSFooter.prism = EXT:ar_codeelement/Resources/Public/Js/prism.js
+page.includeCSS.prism = EXT:ar_codeelement/Resources/Public/Css/prism.css
+[global]
+
+#fluid_styled_content typoscript
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('fluid_styled_content')]
+lib.contentElement {
+	templateRootPaths {
+		200 = EXT:ar_codeelement/Resources/Private/Templates/
+	}
+}
+
+lib.fluidContent {
+	templateRootPaths {
+		200 = EXT:ar_codeelement/Resources/Private/Templates/
+	}
+}
+
+tt_content {
+	ar_codeelem =< lib.contentElement
+	ar_codeelem {
+		templateName = Codeblock.html
+	}
+}
+[global]
+
+#css_styled_content typoscript
+[userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('css_styled_content')]
+tt_content.ar_codeelem >
+tt_content.ar_codeelem = TEXT
+tt_content.ar_codeelem {
+	field = bodytext
+	value = asdf
+	wrap = <pre class="language-{field:codelang}"><code>|</code></pre>
+	wrap.insertData=1
+
+	stdWrap.htmlSpecialChars = 1
+	prefixComment = 2 | Code-Element content:
+}
+[global]
