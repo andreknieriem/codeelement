@@ -10,7 +10,7 @@
       "homepage": "https://www.andrerinas.de"
     }
   ],
-	"license": ["MIT License"],
+	"license": ["MIT"],
 	"version": "1.0.0",
 	"require": {
 		"typo3/cms-core": "^7.6.13 || >=8.5.0 <9"
