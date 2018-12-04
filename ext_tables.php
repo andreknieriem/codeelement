@@ -5,5 +5,5 @@ if (TYPO3_MODE == 'BE') {
 	$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 	// register plugin icon
 	$iconRegistry->registerIcon('extensions-arcodeelement-codeelement', $svgProvider,
-			['source' => 'EXT:ar_codeelement/Resources/Public/Img/Icons/CodeElement.svg']);
+			['source' => 'EXT:codeelement/Resources/Public/Img/Icons/CodeElement.svg']);
 }

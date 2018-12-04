@@ -1,20 +1,20 @@
 #only include prismjs if wanted
 [globalVar = LIT:1 = {$plugin.tx_arcodelement.includePrism}]
-page.includeJSFooter.prism = EXT:ar_codeelement/Resources/Public/Js/prism.js
-page.includeCSS.prism = EXT:ar_codeelement/Resources/Public/Css/prism.css
+page.includeJSFooter.prism = EXT:codeelement/Resources/Public/Js/prism.js
+page.includeCSS.prism = EXT:codeelement/Resources/Public/Css/prism.css
 [global]
 
 #fluid_styled_content typoscript
 [userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('fluid_styled_content')]
 lib.contentElement {
 	templateRootPaths {
-		200 = EXT:ar_codeelement/Resources/Private/Templates/
+		200 = EXT:codeelement/Resources/Private/Templates/
 	}
 }
 
 lib.fluidContent {
 	templateRootPaths {
-		200 = EXT:ar_codeelement/Resources/Private/Templates/
+		200 = EXT:codeelement/Resources/Private/Templates/
 	}
 }
 

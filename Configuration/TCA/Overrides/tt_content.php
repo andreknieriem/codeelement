@@ -9,7 +9,7 @@ defined('TYPO3_MODE') || die();
 		'extensions-arcodeelement-codeelement'
 	],
 	'CType',
-	'ar_codeelement'
+	'codeelement'
 );
 
 $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['ar_codeelem'] = 'extensions-arcodeelement-codeelement';
