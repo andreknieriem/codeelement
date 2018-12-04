@@ -6,13 +6,13 @@ defined('TYPO3_MODE') || die();
 	[
 		'Code-Block',
 		'ar_codeelem',
-		'extensions-arcodeelement-codeelement'
+		'extensions-codeelement-codeelement'
 	],
 	'CType',
 	'codeelement'
 );
 
-$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['ar_codeelem'] = 'extensions-arcodeelement-codeelement';
+$GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['ar_codeelem'] = 'extensions-codeelement-codeelement';
 
 
 // Configure the default backend fields for the content element

@@ -1,4 +1,4 @@
-# cat=plugin.tx_arcodelement//a; type=boolean; label= LLL:EXT:codeelement/Resources/Private/Language/locallang_be.xlf:constants.loadprism
-plugin.tx_arcodelement {
+# cat=plugin.tx_codelement//a; type=boolean; label= LLL:EXT:codeelement/Resources/Private/Language/locallang_be.xlf:constants.loadprism
+plugin.tx_codelement {
 	includePrism = 1
 }

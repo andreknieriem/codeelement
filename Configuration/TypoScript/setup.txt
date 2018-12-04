@@ -1,5 +1,5 @@
 #only include prismjs if wanted
-[globalVar = LIT:1 = {$plugin.tx_arcodelement.includePrism}]
+[globalVar = LIT:1 = {$plugin.tx_codelement.includePrism}]
 page.includeJSFooter.prism = EXT:codeelement/Resources/Public/Js/prism.js
 page.includeCSS.prism = EXT:codeelement/Resources/Public/Css/prism.css
 [global]

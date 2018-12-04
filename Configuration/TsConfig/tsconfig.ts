@@ -2,7 +2,7 @@
 mod.wizards.newContentElement.wizardItems.special {
 	elements {
 		ar_codeelem {
-			iconIdentifier = extensions-arcodeelement-codeelement
+			iconIdentifier = extensions-codeelement-codeelement
 			title = LLL:EXT:codeelement/Resources/Private/Language/locallang_be.xlf:codelement.title
 			description = LLL:EXT:codeelement/Resources/Private/Language/locallang_be.xlf:codelement.description
 			tt_content_defValues {
