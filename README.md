@@ -1,5 +1,5 @@
 # Code Content-Element
-This extensions ads a new content element to TYPO3. You can add code-blocks with syntax hightlighting.
+This extensions ads a new content element to TYPO3. You can add code-blocks with syntax highlighting.
 
 ## Installation
 ### Composer

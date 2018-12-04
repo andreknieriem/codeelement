@@ -1,7 +1,7 @@
 {
 	"name": "andrerinas/codeelement",
 	"type": "typo3-cms-extension",
-	"description": "Ar Siteext",
+	"description": "Ads a new content element to TYPO3. You can add code-blocks with syntax highlighting.",
 	"homepage": "https://www.andrerinas.de",
 	"authors": [
     {
