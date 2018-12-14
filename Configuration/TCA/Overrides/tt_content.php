@@ -32,6 +32,7 @@ $temporaryColumns = [
 			'items' => [
 				['HTML', 'markup'],
 				['CSS', 'css'],
+				['JS', 'js'],
 				['SASS', 'scss'],
 				['SQL', 'sql'],
 				['PHP', 'php'],
