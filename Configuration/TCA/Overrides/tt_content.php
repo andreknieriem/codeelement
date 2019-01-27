@@ -29,6 +29,7 @@ $temporaryColumns = [
 		'label' => 'Code Language',
 		'config' => [
 			'type' => 'select',
+			'renderType' => 'selectSingle',
 			'items' => [
 				['HTML', 'markup'],
 				['CSS', 'css'],
