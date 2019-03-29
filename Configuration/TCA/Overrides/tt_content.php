@@ -38,7 +38,8 @@ $temporaryColumns = [
 				['SQL', 'sql'],
 				['PHP', 'php'],
 				['Typoscript', 'typoscript'],
-				['Bash', 'bash']
+				['Bash', 'bash'],
+				['Twig', 'twig']
 			],
 			'size' => 1,
 			'maxitems' => 1,
